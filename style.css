@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #d0d7de;
+	font-family: Helvetica
+}
+
+/*Main Heading style*/
+.main--heading {
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+}
+
+/*Time wrapper style*/
+.time--wrapper {
+	display: flex;
+	justify-content: stretch;
+	font-size: 48px;
+    font-weight: 700;
+    transform: translate(42%);
+}
+.time--wrapper .displays {
+	padding: 5px;
+}
+
+/* Split time style */
+.split--time {
+	text-align: center;
+	margin: 20px;
+	padding: 10px;  
+}
+.split--time  h2 {
+	color: #bf8700;
+}
+
+/* Actions buttons style */
+.actions--buttons {
+	display: flex;
+	justify-content: center;
+}
+.actions--buttons .actions {
+	font-size: 18px;
+	width: 100px;
+    height: 100px;
+	margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.actions--buttons .action--start:hover {
+	background: #18A69D;
+    color: #ffff;
+}
+.actions--buttons .action--split:hover {
+	background: #F29E26;
+    color: #ffff;
+}
+.actions--buttons .action--reset:hover {
+	background: #4487D0;
+    color: #ffff;
+}
+
+/*Split time laps style*/
+.lap--entries {
+	display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px
+}
+.lap--entries .lap {
+	padding: 5px;
+	margin: 3px;
+	width: 50%;
+    text-align: center;
+}
+.lap--entries .lap span {
+	margin: 20px;
+    padding: 5px;
+    color: gray;
+    font-size: 20px;
+}
+.Pause {
+	color: #FA6E87;
+}
+.Split {
+	color: #F29E26;
+}
+
+
